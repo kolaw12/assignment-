@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-part{
+    background-image: linear-gradient(rgba(248, 246, 246, 0.158),rgba(250, 247, 247, 0.13)),url(img/whapp\ img.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10% 10%;
+
+}
+.test1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.test2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color:rgb(211, 209, 209);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
