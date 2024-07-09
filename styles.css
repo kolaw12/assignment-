@@ -18,6 +18,10 @@ body {
     font-weight: 500 !important;
     color: #fff !important;
 }
+/*counter section*/
+.counter-sect{
+    background-color: rgba(249,249,249,1);
+}
 /*GADOL-styles*/
 .container-fluid {
     margin-top: 40px;
