@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENTOR</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Aos animation-link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css-link-->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- Navbar section by Kola-->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: #6FD48D; font-size: 15px; font-weight: 600;">
+                <h1>MENTOR</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"
+                    style="opacity: 1 !important; font-size: 18px !important; font-weight: 600; position: relative; left: 75px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="color: #6FD48D;" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trainers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+                <button class="btn"
+                    style=" background-color: #6FD48D !important; color: #fff !important; position: relative;">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- /Navbar section by Kola-->
+    <!-- hero-section by kola-->
+    <section class="hero-section p-5 mb-5">
+        <div>
+            <div style="position: relative; top: 130px; color: #fff;">
+                <h1 data-aos="fade-up" data-aos-duration="2000" style="font-size: 48px; font-weight: 700; margin: 0;"
+                    class="mb-3">
+                    Learning Today, <br>
+                    Leading Tomorrow
+                </h1>
+                <p data-aos="fade-up" data-aos-duration="2000" style="font-size: 24px; margin: 0; opacity: 0.7;"
+                    class="mb-5">
+                    We are team of talented designers making websites with Bootstrap
+                </p>
+            </div>
+            <button data-aos="fade-up" data-aos-duration="2000" class="btn" style="position: relative; top: 170px;">Get
+                Started</button>
+        </div>
+    </section>
+    <!-- /hero-section by kola-->
+    <!-- DAVE -->
+    <div class="container-fluid mb-1 p-10">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 style="font-size: 2rem; font-weight: 700;">Voluptatem dignissimos provident <br>quasi corporis</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <ul>
+                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+                <div>
+                    <button class="btn" style="color: #fff; background-color: #6FD48D;">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+            <div class=" col-md-6">
+                <img src="images/about.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <!--counter-->
+    <div class="container-fluid counter-sect  pt-1" style="background-color: #F9F9F9 !important; height: 34vh;">
+        <div class="container">
+            <div class="row" style="position: relative; left: 70px;">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <h1 style="color: #6FD48D; font-size: 48px; font-weight: bold;" class="count">
+                        1232
+                    </h1>
+                    <span style="text-align: center;">
+                        Students
+                    </span>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <h1 style="color: #6FD48D; font-size: 48px; font-weight: bold;" class="count">
+                        64
+                    </h1>
+                    <span style="text-align: center;">
+                        Courses
+                    </span>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <h1 style="color: #6FD48D; font-size: 48px; font-weight: bold;" class="count">
+                        42
+                    </h1>
+                    <span style="text-align: center;">
+                        Events
+                    </span>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <h1 style="color: #6FD48D; font-size: 48px; font-weight: bold;" class="count">
+                        24
+                    </h1>
+                    <span class="mr-5" style="text-align: center;">
+                        Trainers
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /counter-->
+
+    <!--Section by GADOL-->
+    <div class="container-fluid mb-sm-0">
+        <div class="row mb-5">
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-6 mb-sm-0">
+                <div class="card border my-lorem">
+                    <div class="card-body">
+                        <i class="fa-regular fa-eye fa-2x"></i>
+                        <a href="#" id="lorem">
+                            <p class="card-text">Lorem Ipsum</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-6 mb-sm-0">
+                <div class="card border my-dolor">
+                    <div class="card-body">
+                        <i class="fa-solid fa-infinity fa-2x"></i>
+                        <a href="#" id="dolor">
+                            <p class="card-text">Dolor Sitema</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb6 mb-sm-0">
+                <div class="card border my-sed">
+                    <div class="card-body">
+                        <i class="fa-solid fa-graduation-cap fa-2x"></i>
+                        <a href="#" id="sed">
+                            <p class="card-text">Sed perspiciatis</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-6 mb-sm-0">
+                <div class="card border my-magni">
+                    <div class="card-body">
+                        <i class="fa-regular fa-rectangle-xmark fa-2x"></i>
+                        <a href="#" id="magni">
+                            <p class="card-text">Magni Dolores</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-6 mb-sm-0">
+                <div class="card border my-nemo">
+                    <div class="card-body">
+                        <i class="fa-solid fa-arrows-turn-right fa-2x"></i>
+                        <a href="#" id="nemo">
+                            <p class="card-text">Nemo Enim</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card border my-eiusmod">
+                    <div class="card-body">
+                        <i class="fa-regular fa-star fa-2x"></i>
+                        <a href="#" id="eiusmod">
+                            <p class="card-text">Eiusmod Temporr</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card border my-midela">
+                    <div class="card-body">
+                        <i class="fa-brands fa-codepen fa-2x"></i>
+                        <a href="#" id="midela">
+                            <p class="card-text">Midela Teren</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card border my-pira">
+                    <div class="card-body">
+                        <i class="fa-solid fa-video fa-2x"></i>
+                        <a href="#" id="pira">
+                            <p class="card-text">Pira Neve</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card border my-dirada">
+                    <div class="card-body">
+                        <i class="fa-solid fa-table-cells-large fa-2x"></i>
+                        <a href="#" id="dirada">
+                            <p class="card-text">Dirada Pack</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card border my-moton">
+                    <div class="card-body">
+                        <i class="fa-solid fa-baseball fa-2x"></i>
+                        <a href="#" id="moton">
+                            <p class="card-text">Moton Ideal</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card border my-verdo">
+                    <div class="card-body">
+                        <i class="fa-solid fa-wave-square fa-2x"></i>
+                        <a href="#" id="verdo">
+                            <p class="card-text">Verdo Park</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card border my-flavor">
+                    <div class="card-body">
+                        <i class="fa-regular fa-sun fa-2x"></i>
+                        <a href="#" id="flavor">
+                            <p class="card-text">Flavor Nivelanda</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Section by GADOL-->
+    <!-- popular-courses-sect by SAMEL-->
+    <div class="container-fluid bg-white">
+        <div class="justify-content-center">
+            <div style="margin-left: 52px !important;">
+                <h3 data-aos="fade-up" data-aos-duration="2000" class="section-title my-3">COURSES</h3>
+                <h1 data-aos="fade-up" data-aos-duration="2000" class=" fw-bold ff-popins text-black mb-5">POPULAR
+                    COURSES
+                </h1>
+            </div>
+            <div class="row ">
+                <div data-aos="zoom-in" data-aos-duration="2000" class="col-12 col-md-6 col-lg-4 p-3">
+                    <div class="card">
+                        <img src="images/course-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <button class=" green-button rounded px-4 py-2 fs-8">Web Development</button>
+                                <span class="text-end text-grey fw-bold">$169</span>
+                            </div>
+                            <h5 class="mt-3 card-title hover-green text-black fw-bold ff-raleway">Website Design
+                            </h5>
+                            <p class="card-text text-grey fs-8">Et architecto provident deleniti facere repellat
+                                nobis
+                                iste. Id facere
+                                quia
+                                quae dolores dolorem tempore.</p>
+                        </div>
+                        <hr class="mx-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <img src="images/trainer-1-2.jpg" alt="Trainer" class="rounded-circle col-2" width="12">
+                                <span
+                                    class="hover-green d-flex align-items-center text-grey fw-bold col-3">Antonio</span>
+                                <div
+                                    class="trainer-rank d-flex align-items-center justify-content-end text-grey text-end col-7">
+                                    <i class="fa-regular fa-user"></i></i>&nbsp;50
+                                    &nbsp;&nbsp;
+                                    <i class="fa-regular fa-heart"></i>&nbsp;65
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="2000" class="col-12 col-md-6 col-lg-4 p-3">
+                    <div class="card">
+                        <img src="images/course-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <button class=" green-button rounded px-4 py-2 fs-8">Marketing</button>
+                                <span class="text-end text-grey fw-bold">$250</span>
+                            </div>
+                            <h5 class="mt-3 card-title hover-green text-black fw-bold ff-raleway">Search Engine
+                                Optimization</h5>
+                            <p class="card-text text-grey fs-8">Et architecto provident deleniti facere repellat
+                                nobis
+                                iste. Id facere
+                                quia
+                                quae dolores dolorem tempore.</p>
+                        </div>
+                        <hr class="mx-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <img src="images/trainer-2-2.jpg" alt="Trainer" class="rounded-circle col-2" width="12">
+                                <span class="hover-green d-flex align-items-center text-grey fw-bold col-3">Lana</span>
+                                <div
+                                    class="trainer-rank d-flex align-items-center justify-content-end text-grey text-end col-7">
+                                    <i class="fa-regular fa-user"></i></i>&nbsp;35
+                                    &nbsp;&nbsp;
+                                    <i class="fa-regular fa-heart"></i>&nbsp;42
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="2000" class="col-12 col-md-6 col-lg-4 p-3">
+                    <div class="card">
+                        <img src="images/course-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <button class=" green-button rounded px-4 py-2 fs-8">Content</button>
+                                <span class="text-end text-grey fw-bold">$180</span>
+                            </div>
+                            <h5 class="mt-3 card-title hover-green text-black fw-bold ff-raleway">Copywriting</h5>
+                            <p class="card-text text-grey fs-8">Et architecto provident deleniti facere repellat
+                                nobis
+                                iste. Id facere
+                                quia
+                                quae dolores dolorem tempore.</p>
+                        </div>
+                        <hr class="mx-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <img src="images/trainer-3-2.jpg" alt="Trainer" class="rounded-circle col-2" width="12">
+                                <span
+                                    class="hover-green d-flex align-items-center text-grey fw-bold col-3">Brandon</span>
+                                <div
+                                    class="trainer-rank d-flex align-items-center justify-content-end text-grey text-end col-7">
+                                    <i class="fa-regular fa-user"></i></i>&nbsp;20
+                                    &nbsp;&nbsp;
+                                    <i class="fa-regular fa-heart"></i>&nbsp;85
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /popular-courses-sect by SAMEL-->
+    <!--Trainers by TOM-->
+    <div class="container-fluid mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col">
+                <div class="card trainers-card h-100 text-center rounded-0">
+                    <img src="images/trainer-1.jpg" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body mt-3">
+                        <h5 class="card-title">Walter White</h5>
+                        <p class="card-subtitle text-body-secondary mb-2" style="font-size: 0.8rem;">Web Development</p>
+                        <p class="card-text text-secondary fw-lighter fst-italic">Magni qui quod omnis unde et eos fuga
+                            et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+                        <div class="row justify-content-center">
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-x-twitter text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin text-secondary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card trainers-card h-100 text-center rounded-0">
+                    <img src="images/trainer-2.jpg" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body mt-3">
+                        <h5 class="card-title">Sarah Jhinson</h5>
+                        <p class="card-subtitle text-body-secondary mb-2" style="font-size: 0.8rem;">Marketing</p>
+                        <p class="card-text text-secondary fw-lighter fst-italic">Repellat fugiat adipisci nemo illum
+                            nesciunt voluptas repellendus. In architecto rerum rerum temporibus</p>
+                        <div class="row justify-content-center">
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-x-twitter text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin text-secondary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card trainers-card h-100 text-center rounded-0">
+                    <img src="images/trainer-3.jpg" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body mt-3">
+                        <h5 class="card-title">William Anderson</h5>
+                        <p class="card-subtitle text-body-secondary mb-2" style="font-size: 0.8rem;">Content</p>
+                        <p class="card-text text-secondary fw-lighter fst-italic">Voluptas necessitatibus occaecati
+                            quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+                        <div class="row justify-content-center">
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-x-twitter text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram text-secondary"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-auto col-1 px-1">
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin text-secondary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Trainers-->
+    <!--FOOTER SECTION by FRANCIS-->
+    <div id="footer">
+        <div class="row" style="position: relative; bottom: 25px;">
+            <div class="col-md-4 col-12 b1">
+                <h1 style="font-size: 26px; font-weight: 700; letter-spacing: 1px;">MENTOR</h1>
+
+                <div class="Lead">
+                    <p style="font-size: 14px;" class="mt-3 ">
+                        A108 Adam Street <br>
+                        New York, NY 535022
+                    </p>
+                    <p style="font-size: 14px;"> <b>Call:</b>
+                        +1 5589 55488 55
+                    </p>
+                    <p style="font-size: 14px;"> <b>Email:</b>
+                        info@example.com
+                    </p>
+
+                </div>
+                <div id="pic">
+                    <div class="row">
+                        <div class="col-md-3 col-1">
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <div class="col-md-3 col-1">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="col-md-3 col-1">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="col-md-3 col-1">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-2 col-12 b1 lead">
+                <h1 style="font-size: 16px; font-weight: bold;">Useful Links</h1>
+                <p><a href="wednesdayass.html">home</a></p>
+                <p><a href="about.html">about us</a></p>
+                <p><a href="services.html">Services</a></p>
+                <p><a href="">terms of Services</a></p>
+                <p><a href="">privacy policy</a></p>
+            </div>
+            <div class=" col-md-2 col-12 b1 lead">
+                <h1 style="font-size: 16px; font-weight: bold;">Our Services</h1>
+                <p><a href="">Web design</a></p>
+                <p><a href="">Web Development</a></p>
+                <p><a href="">Product Management</a></p>
+                <p><a href="">Marketing</a></p>
+                <p><a href="">Graphic Design</a></p>
+            </div>
+            <div class=" col-md-4 col-12 b1">
+                <h1 style="font-size: 16px; font-weight: bold;">
+                    Our Newsletter
+                </h1>
+                <p style="font-size: 14px; " class="mb-3">Subscribe to our newsletter and receive the latest <br>
+                    news about our products and services!</p>
+                <div style="position: relative;">
+                    <input type="text" placeholder="" class="form-control " style="border-radius: 35px !important;">
+                    <button
+                        style="font-size: 16px; width: 150px !important; position: absolute; bottom: -1%; left: 60%; background-color: #6FD48D !important; color: #fff !important; "
+                        class="btn">SUBSCRIBE</button>
+                </div>
+
+            </div>
+        </div>
+        <div id="cp"
+            style="background-color: #EFEFEF; position: relative; bottom: 77px; height: 20vh; padding-top: 30px;">
+            <h3>&copy; copyright MENTOR All Rights Reserved</h3>
+            <p> Design by <span><b>TEAM</b></span></p>
+        </div>
+    </div>
+    <!--/FOOTER SECTION by FRANCIS-->
+
+    <!--bootstrap js-link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <!--Aos animate js-link-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(".count").counterUp({ time: 3000 });
+    </script>
+</body>
+
+</html
